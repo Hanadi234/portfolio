@@ -337,36 +337,6 @@ footer {
   }
 }
 
-.sign ,.login{
-    width: 300px;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    margin: 8% auto;
-    text-align: center;
-}
-.sign, .login h1{
-    
-    margin-bottom: 30px;
-}
-.input-box ,.log-box{
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    width: 98%;
-    border: 1px solid rgb(226, 157, 171);
-    outline: none;
-}
-.sign-bt ,.log-bt{
-    color: #caced4;
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 15px;
-    margin: 10px 0;
-    border: none;
-    background-color: #193052;
-}
 .back{
     text-decoration: none;
 } */
@@ -718,3 +688,33 @@ footer {
   }
 }
 
+.sign ,.login{
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    margin: 8% auto;
+    text-align: center;
+}
+.sign, .login h1{
+    
+    margin-bottom: 30px;
+}
+.input-box ,.log-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 98%;
+    border: 1px solid rgb(226, 157, 171);
+    outline: none;
+}
+.sign-bt ,.log-bt{
+    color: #caced4;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #193052;
+}
