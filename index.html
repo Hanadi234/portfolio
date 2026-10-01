@@ -1,200 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My webpage</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanadi Kamal — Frontend Developer & UI Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Diplomata&family=Inria+Serif:wght@400;700&family=Inter:wght@500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
- 
-    <header class="photo">
-       <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-btn">☰</label>
-        <img src="./h.png" alt="">
-        <nav class="link">
-        <ul class="navbar">
-           <li> <a href="#section1">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact me</a></li>
-            <li><a href="./sing.html">Sign up</a></li>
-            <li><a href="./log.html">Log in</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="section1">
-        <div><img class="img" src="./IMG-20250919-WA0031_2-removebg-preview (1).png" alt=""></div>
-        <div class="text1">
-            <h3 class="h3">Hi There,I'm</h3>
-            <h1 class="h1">Hanadi Kamal</h1>
-            <p class="p"> A passionate Web developer dedicated to creating beautiful and functional websites.</p>
-            <div class="social">
-                <a class="face" href="https://www.facebook.com/hnadei.kmal" target="_blank">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a class="insta" href="https://www.instagram.com/hanadik94?igsh=MWlzdHgxcjh0bXBwZw==" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a class="git" href="https://github.com/Hanadi234" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a class="link" href="https://www.linkedin.com/in/hanadi-kamal-5a8a17352/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </div>
-        </div>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">HANADI</a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-dark">Let's Talk →</a>
     </div>
-<section id="about">
-    <div class="contener">
-        <h2>About Me</h2>
-        <hr>
-        <div class="about-content">
-            <div class="col-1">
-                <h3 class="web">I'm <span class="h3">Hanadi Kamal,</span>a web developer</h3>
-                <p>I am a beginner web developer with skills in HTML and CSS, and experience using Figma for UI design. I’m eager to keep learning and improve my skills to build professional and user-friendly websites.</p>
-                <p>My background is in Microbiology, and I’m passionate about biology and life sciences.</p>
-            </div>
-            <div class="col-2">
-                <p><b>Email:</b> hanadik947@gmail.com</p>
-                <p><b>Location:</b> Rwanda</p>
-            </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="role-badge">Frontend Developer & UI Designer</span>
+          <h1 class="hero-name">Hanadi Kamal</h1>
+          <p class="hero-bio">
+            I design and build modern, high-performing websites and digital products that combine intuitive UI/UX with clean, responsive code to turn visitors into active users.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-dark">Work With Me →</a>
+            <a href="#work" class="btn-text">View My Work →</a>
+          </div>
         </div>
 
-    </div>
-
-</section>
-<section id="services">
-    <div class="serv">
-        <div class="heading">
-            <img class="imn" src="./computer-removebg-preview (1).png" alt="services">
-           <h2>My <span class="h3">Services</span></h2>
-            
+        <div class="hero-media">
+          <img class="hero-img" src="./n2.png" alt="Hanadi Kamal Portrait">
         </div>
-        <div class="row">
-            <div class="item">
-                <h3><strong>Web Development</strong></h3>
-                <p>I can build a websites by using HTML and CSS.</p>
-            </div>
-            <div class="item">
-                <h3><strong>Responsive Design</strong></h3>
-                <p>Your website will be 100% responsive for all devices:Tablets,smart phons.</p>
-            </div>
-            <div class="item">
-                <h3><strong>Creative Design</strong></h3>
-                <p>I can edit your current website by adding a new content to make it more better.</p>
-            </div>
-            <div class="item">
-                <h3><strong>Web Ideas</strong></h3>
-                <p>I could turn your ideas into a real project with hight quality.</p>
-            </div>
-            <div class="item">
-                <h3><strong>Retouch</strong></h3>
-                <p>I can help you by redesign your current website to be more better.</p>
-            </div>
-            <div class="item">
-                <h3><strong>Support</strong></h3>
-                <p>Support is available if you want to make any changes for your website after dilvering it.</p>
-            </div>
-        </div>
-    </div>
+      </div>
 
-</section>
-<section id="skills">
-        <h2>
-            Skills
-        </h2>
-        <hr>
-        <div class="skills-content">
-          <div class="row">
-            <div class="item">
-                <img src="./nhtml.png" alt="HTML">
-                <p>HTML</p>
+      <div class="container">
+        <div class="metrics-bar">
+          <div class="metric-card">
+            <span class="metric-symbol">♧</span>
+            <div class="metric-info">
+              <strong>2+</strong>
+              <span>Years Experience</span>
             </div>
-             <div class="item">
-                <img src="./css.png" alt="CSS">
-                <p>CSS</p>
+          </div>
+          <div class="metric-card">
+            <span class="metric-symbol">♧</span>
+            <div class="metric-info">
+              <strong>15+</strong>
+              <span>Projects Done</span>
             </div>
-            <div class="item">
-                <img src="./GitHub-Mark-ea2971cee799.png" alt="GitHub">
-                <p>GitHub</p>
+          </div>
+          <div class="metric-card">
+            <span class="metric-symbol">♧</span>
+            <div class="metric-info">
+              <strong>100%</strong>
+              <span>On-Time Delivery</span>
             </div>
-             <div class="item">
-                <img src="./5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.avif" alt="Figma">
-                <p>Figma</p>
+          </div>
+          <div class="metric-card">
+            <span class="metric-symbol">♧</span>
+            <div class="metric-info">
+              <strong>99%</strong>
+              <span>Clean Code Score</span>
             </div>
           </div>
         </div>
-    </div>
-</section>
-<section id="blog">
-    <div class="contener">
-        <h2 class="h3"><strong>Blog</strong></h2>
-        <hr>
-        <div class="row">
-            <div class="item">
-                <img src="./blog1.jpeg" alt="">
-                <h2>Create a Personal Portfolio</h2>
-                <p>Sections to include:
-
-Page structure (header, about, projects, contact)
-
-Hero section with a background image
-
-CSS for layout and colors
-
-Mobile responsiveness
-
-Final live preview
-
-Download the template.</p>
-            </div>
-            <div class="item">
-                <img src="./blog2.png" alt="">
-                <h2>The Psychology of Color in Web Design</h2>
-                <p>Warm vs cool colors
-
-Meaning of common colors (blue = trust, red = urgency, etc..)
-
-How to choose a palette
-
-Tools like Coolors and Adobe Color
-
-Real examples of good color use</p>
-            </div>
-            <div class="item">
-                <img src="./Blog3.jpg" alt="">
-                <h2>Final Thoughts</h2>
-                <p>You don’t need a framework or advanced tools to start building. With just HTML and CSS, you can already create clean and useful websites. Keep practicing and adding new features like buttons, images, and navigation bars.</p>
-            </div>
-        </div>
-    </div>
+      </div>
     </section>
-<section id="contact">
-    <div class="contaner">
-        <h2>Get In <span class="h3">Touch</span></h2>
-        <div class="row">
-            <img src="./male-programmer-working-computer-office-wall-with-hanging-reminder-stickers-developer-creating-new-software-interface-coding-programming-system-administrator-designer-character_575670-1159.jpg" alt="Git In Touch">
-            <form action="https://formsubmit.co/hanadik947@gmail.com" method="POST">
-                <input type="text" name="Name" id="Name" placeholder="your name..." required>
-                <input type="email" name="Email" id="Email" placeholder="your email..." required>
-                <textarea name="Message" id="Message" placeholder="Message..."></textarea>
-                <button class="submit">Submit</button>
-            </form>
+
+    <section id="about" class="about-section">
+      <div class="container about-grid">
+        <div class="about-media">
+          <img src="./m.png" alt="Hanadi Working" class="about-img">
         </div>
+
+        <div class="about-details">
+          <span class="tag-serif-italic tag-light">About Me</span>
+          <h2 class="about-title">I’m Hanadi — creating high-performing web experiences.</h2>
+          <p class="about-description">
+            I turn creative ideas into clean, efficient code and interactive products that visitors love to use.
+          </p>
+          <ul class="skills-checklist">
+            <li><span class="bullet-icon">◇</span> User Interface & Experience Design</li>
+            <li><span class="bullet-icon">◇</span> Custom Website Development</li>
+            <li><span class="bullet-icon">◇</span> Interactive Web Animations</li>
+            <li><span class="bullet-icon">◇</span> Technical Audit & Refactoring</li>
+          </ul>
+        </div>
+
+        <div class="mission-card">
+          <p>
+            My mission is simple: to create seamless, high-performing web experiences that connect businesses with their users.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="tag-serif-italic">Services & Solutions</span>
+          <h2 class="section-title-serif">Tailored Code & Design. Real Results.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon-wrapper">❀</div>
+            <h3 class="service-title">UI/UX Design</h3>
+            <span class="service-subtitle">For modern digital experiences</span>
+            <ul class="service-list">
+              <li>• Wireframing & Prototyping</li>
+              <li>• Interactive Figma Prototypes</li>
+              <li>• Design Systems</li>
+              <li>• Mobile & Web UI</li>
+            </ul>
+            <div class="service-price-bar">Starting at $800 →</div>
+          </article>
+
+          <article class="service-card featured">
+            <div class="service-icon-wrapper">✦</div>
+            <h3 class="service-title">Frontend Development</h3>
+            <span class="service-subtitle">For growing web applications</span>
+            <ul class="service-list">
+              <li>• Figma to Clean Code</li>
+              <li>• Fully Responsive & Mobile-first</li>
+              <li>• React / HTML / CSS / JS</li>
+              <li>• Speed & SEO Optimization</li>
+            </ul>
+            <div class="service-price-bar dark">Starting at $1,500 →</div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon-wrapper">♚</div>
+            <h3 class="service-title">Full Web Solution</h3>
+            <span class="service-subtitle">End-to-end design & development</span>
+            <ul class="service-list">
+              <li>• End-to-End UI/UX & Code</li>
+              <li>• Custom Web Architecture</li>
+              <li>• Cross-Browser Audit & Testing</li>
+              <li>• Maintenance & Handover</li>
+            </ul>
+            <div class="service-price-bar">Starting at $3,000 →</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work-section">
+      <div class="container">
+        <div class="work-header">
+          <div>
+            <span class="tag-serif-italic tag-light">Recent Projects</span>
+            <h2 class="about-title">Real Projects. Real Impact.</h2>
+            <p class="work-subtext">
+              Here's how I've helped businesses design, build, and optimize high-performing web applications.
+            </p>
+          </div>
+          <a href="#contact" class="btn btn-outline">View All Projects →</a>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-stat">99/100</div>
+            <div class="project-label">Lighthouse Speed Score</div>
+            <div class="project-tag">SaaS Platform</div>
+          </div>
+          <div class="project-card">
+            <div class="project-stat">+140%</div>
+            <div class="project-label">User Engagement</div>
+            <div class="project-tag">E-Commerce App</div>
+          </div>
+          <div class="project-card">
+            <div class="project-stat">2.5x</div>
+            <div class="project-label">Faster Load Time</div>
+            <div class="project-tag">Corporate Website</div>
+          </div>
+          <div class="project-card">
+            <div class="project-stat">100%</div>
+            <div class="project-label">Mobile Responsiveness</div>
+            <div class="project-tag">Fintech Dashboard</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process-faq-section">
+      <div class="container process-faq-grid">
+        <div class="process-column">
+          <span class="tag-serif-italic">My Process</span>
+          <h2 class="section-title-serif">A Proven Process<br>for High-Performing Web Solutions.</h2>
+
+          <div class="process-steps">
+            <div class="step-item">
+              <div class="step-badge"></div>
+              <span class="step-number">01</span>
+              <strong class="step-heading">Discover</strong>
+              <p>Understanding goals, user flows, and requirements.</p>
+            </div>
+            <div class="step-item">
+              <div class="step-badge"></div>
+              <span class="step-number">02</span>
+              <strong class="step-heading">Design & Prototype</strong>
+              <p>Crafting wireframes, UI layouts, and prototypes.</p>
+            </div>
+            <div class="step-item">
+              <div class="step-badge"></div>
+              <span class="step-number">03</span>
+              <strong class="step-heading">Develop & Test</strong>
+              <p>Writing clean code and cross-browser testing.</p>
+            </div>
+            <div class="step-item">
+              <div class="step-badge"></div>
+              <span class="step-number">04</span>
+              <strong class="step-heading">Launch & Optimize</strong>
+              <p>Optimizing performance and handover support.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-column">
+          <span class="tag-serif-italic">FAQ</span>
+
+          <div class="faq-accordion">
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>What technologies do you use for frontend development?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-panel">
+                <p>I primarily use HTML5, CSS3, JavaScript (ES6+), React, Tailwind CSS, and Figma for design handoffs.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>Can you turn existing Figma or Adobe XD designs into code?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-panel">
+                <p>Yes! I specialize in translating design files into pixel-perfect, responsive HTML/CSS or React components.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>How long does a typical web design & development project take?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-panel">
+                <p>Depending on project complexity, a full design and development cycle typically takes between 2 to 4 weeks.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-trigger">
+                <span>Do you offer ongoing maintenance and site updates after launch?</span>
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-panel">
+                <p>Yes, I offer dedicated monthly maintenance, security audits, and feature expansion support.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container">
+      <div class="contact-banner">
+        <div class="banner-content">
+            
+          <h2>Let's Build Something Great Together.</h2>
+          <p>Ready to bring your web project to life with clean code and intuitive UI design? Let's connect and create an impactful digital experience.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <button type="submit" class="btn btn-dark">Send Message →</button>
+        </form>
+      </div>
+
+      <div class="footer-bar">
+        <div class="footer-brand">
+          <span class="brand-logo">HANADI KAMAL</span>
+          <p>Crafting pixel-perfect designs & high-performing web applications.</p>
+        </div>
+        <p class="copyright">© 2026 Hanadi Kamal. All rights reserved.</p>
+      </div>
     </div>
-</section>
-<footer id="footer">
-    <p>&copy; 2025 |Hanadi</p>
-</footer>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
